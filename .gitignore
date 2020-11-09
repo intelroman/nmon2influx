@@ -1,0 +1,11 @@
+projenv/
+__pycache__/
+csv/*
+json/*
+nmon/*
+fail/*
+!.gitignore
+!csv/.gitkeep 
+!json/.gitkeep
+!nmon/.gitkeep
+!fail/.gitkeep
