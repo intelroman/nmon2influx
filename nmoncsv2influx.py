@@ -73,6 +73,11 @@ for i in jsonFilePath:
 #At the end cleaup the folders
 for i in os.listdir(cfg.CSVF):
     if i == ".gitkeep":
-         pass
+        pass
     else:
         shutil.rmtree(cfg.CSVF+"/"+i)
+for i in os.listdir(cfg.NMONF):
+    if i == ".gitkeep":
+        pass
+    else:
+        shutil.rmtree(cfg.NMONF+"/"+i)
